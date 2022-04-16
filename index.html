@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mustache Document</title>
+</head>
+
+<body onload="renderHello()">
+    <div id="target">Loading...</div>
+    <script id="template" type="x-tmpl-mustache">
+      Hello {{ name }}!
+    </script>
+
+    <script src="https://unpkg.com/mustache@latest"></script>
+    <script src="render.js"></script>
+</body>
+
+</html>
